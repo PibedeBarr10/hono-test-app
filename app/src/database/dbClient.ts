@@ -26,7 +26,7 @@ const runSeeds = (dbClient: Database) => {
 export const initDbClient = async (): Promise<Database> => {
     let dbClient: Database
 
-    const dbPath = 'database/db.sqlite'
+    const dbPath = 'src/database/db.sqlite'
     const file = Bun.file(dbPath)
     const isDbExists = await file.exists()
 

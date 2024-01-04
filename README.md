@@ -3,7 +3,7 @@
 English app
 
 Stack:
-- Hono
+- Hono (Bun)
 - SQLite
 - no ORM (because of Bun dialet and SQLite)
 - Lucia Auth / Hono's Basic Auth
@@ -18,7 +18,6 @@ After:
 
 VSC Extensions:
 - lit-html
-- Tailwind CSS IntelliSense (?)
 
 
 ```

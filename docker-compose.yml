@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  external:
+    container_name: hono_test_app
+    # The name of the image that will be created when building this container
+    image: hono-test-app/image
+    build:
+      context: ./
+      dockerfile: ./docker/dev/Dockerfile
+    ports:
+      - 3001:3000
